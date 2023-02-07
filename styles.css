@@ -12,6 +12,8 @@
   background-color: none; 
   padding-bottom: 100px;
   padding-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
 } 
 
 h1 {
@@ -44,7 +46,19 @@ body{
   background-image: url(./images/img_2.jpg);
   background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
+.projects {
+  background-color: #E8E7C5;
+}
+
+.news {
+  color: #731D1E;
+  background-image: url(./images/background_img_light.jpg);
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -128,12 +142,12 @@ a:active {
   
 
 
-  ul {
+  .image-grid{
     display: flex;
     flex-wrap: wrap;
   }
   
-  li {
+  li-img {
     height: 40vh;
     flex-grow: 1;
   }
