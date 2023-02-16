@@ -48,12 +48,12 @@ ul {
 }
 
 li{
-  font-size: 2.8vw;
+  font-size: 2.8vmax;
 }
 
 
 .h1_dates{
-  font-size: 3vw;
+  font-size: 3.2vmax;
   padding-top: 30px;
   padding-bottom: 0px;
 }
@@ -85,10 +85,9 @@ h2{
 }
 
 .dates {
-  margin: auto;
   width: 100%; 
-  padding-left: 100px;
-  padding-right: 90px;
+  padding-left: 10%;
+  padding-right: 10%;
   padding-top: 20px;
 }
 
