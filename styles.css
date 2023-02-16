@@ -3,21 +3,38 @@
   margin:0;
   padding: 0;
   font-family: 'Arial', sans-serif;
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  
 }
 
+body{
+  color: white;
+}
+
+p{
+  color: black;
+}
+.body-index{
+  color: white;
+  background-image: url(./images/img_2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:0;
+}
 
 .navbar{
   display: flex; 
   justify-content: space-between; 
   background-color: none; 
-  padding-bottom: 100px;
   padding-top: 30px;
   padding-left: 10px;
   padding-right: 10px;
 } 
 
 h1 {
-  color:#731D1E;
+  color:black;
   text-align: center;
   padding-top: 150px;
   padding-bottom: 40px;
@@ -27,62 +44,78 @@ h1 {
 
 ul {
   list-style-type: none;
-  font-size: 1.3rem;
+  font-size: 3.0vh;
 }
 
+
 .h1_dates{
-  font-size: 50px;
+  font-size: 30px;
   padding-top: 30px;
   padding-bottom: 0px;
 }
 
+h2{
+  color: black;
+  padding-top: 60px;
+  font-size: 40px;
+  font-weight: lighter;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 110%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 120%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  html {
+    font-size: 130%;
+  }
+}
+
 .dates {
   margin: auto;
-  width: 640px; 
+  width: 700px; 
   padding: 50px;
 }
 
-body{
-  color: #731D1E;
-  background-image: url(./images/img_2.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.projects {
-  background-color: #E8E7C5;
-}
 
 .news {
-  color: #731D1E;
-  background-image: url(./images/background_img_light.jpg);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  color: black;
 }
 
 
+a:hover[href="about.html"] {
+  /* link to specific website */
+  color: white;
+  background-color: black;
+}
+
 a:link {
-  color: #731D1E;
+  color: black;
   text-decoration: none;
 }
 
 a:visited {
-  color: #731D1E;
+  color: black;
   text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-  color: #9B2816;
+  color:rgb(4, 4, 170);
 }
 
 /* selected link */
 a:active {
-  color: white;
+  color: grey;
 }
 
 .music_links{
@@ -95,7 +128,7 @@ a:active {
   display: flex;
   flex-direction: column;
   align-items:center;
-  text-align: center;
+  text-align: center;;
 }
 
 .news{
@@ -146,6 +179,7 @@ a:active {
   .image-grid{
     display: flex;
     flex-wrap: wrap;
+    gap:3px;
   }
   
   li-img {
@@ -162,4 +196,50 @@ a:active {
 
   li:last-child {
     flex-grow: 10;
+  }
+
+  .homepage-button{
+    color:white;
+    font-size: 60px;
+    border: solid 2px;
+    padding: 30px;
+    border-radius: 50px;
+  }
+
+  .content-index {
+    width: 100%;
+    height: 100%;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .dates-img{
+    height: 500px;
+    padding-top: 20px;
+  }
+
+  
+  .image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .image-gallery > li {
+    flex-basis: 350px; /* width: 350px; */
+  }
+  
+  .image-gallery li img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 5px;
   }
