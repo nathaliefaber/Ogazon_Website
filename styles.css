@@ -96,7 +96,6 @@ h2{
   color: black;
 }
 
-
 a:hover[href="about.html"] {
   /* link to specific website */
   color: white;
@@ -194,7 +193,6 @@ a:active {
     max-height: 100%;
     min-width: 100%;
     object-fit: cover;
-    vertical-align: bottom;
   }
 
   li:last-child {
