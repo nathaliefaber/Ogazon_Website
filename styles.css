@@ -91,11 +91,6 @@ h2{
   padding-top: 20px;
 }
 
-
-.news {
-  color: black;
-}
-
 a:hover[href="about.html"] {
   /* link to specific website */
   color: white;
@@ -140,7 +135,9 @@ a:active {
 }
 
 .news{
-  padding-left: 40px;
+  padding-left: 30px;
+  padding-right: 15px;
+  color: black;
 }
 
   .flex-container {
