@@ -91,19 +91,6 @@ h2{
   padding-top: 20px;
 }
 
-@media (max-width: 480px) {
-  .dates {
-      top: 50%; /* IMPORTANT */
-      left: 50%; /* IMPORTANT */
-      width: 100%; 
-  /* padding-left: 12%;
-  padding-right: 5%;
-  padding-top: 20px; */
-      margin-top: -208.5px; /* HALF OF THE HEIGHT */
-      margin-left: -375px; /* HALF OF THE WIDTH */
-  }
-}
-
 a:hover[href="about.html"] {
   /* link to specific website */
   color: white;
