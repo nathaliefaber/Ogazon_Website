@@ -39,11 +39,14 @@ p{
 
 h1 {
   color:black;
-  text-align: center;
+  text-align: left;
   padding-top: 150px;
   padding-bottom: 40px;
-  font-size: 50px;
+  padding-left: 20px;
+  font-size: 3.2vmax;
   font-weight: lighter;
+  color: black;
+  padding-bottom: 20px;
 }
 
 ul {
@@ -59,12 +62,13 @@ li{
   font-size: 3.2vmax;
   padding-top: 25px;
   padding-bottom: 0px;
+  padding-left: 30px;
 }
 
 h2{
   color: black;
-  padding-top: 60px;
-  font-size: 40px;
+  padding-top: 40px;
+  font-size: 3.2vmax;
   font-weight: lighter;
   padding-bottom: 20px;
 }
