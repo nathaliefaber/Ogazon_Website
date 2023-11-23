@@ -14,6 +14,7 @@ body{
 
 p{
   color: black;
+  font-size: 14px;
 }
 .body-index{
   color: white;
@@ -123,7 +124,7 @@ h2{
 
 .dates {
   width: 100%; 
-  padding-left: 20%;
+  padding-left: 18%;
   padding-right: 5%;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -198,6 +199,20 @@ a:active {
     .flex-item-right, .flex-item-left {
       flex: 100%;
     }
+  }
+  .list-container {
+    width: 100%;
+  }
+  
+  .horizontal-list {
+    display: flex;
+    justify-content: space-between; 
+    padding: 0;
+  }
+  
+  .horizontal-list li {
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
 
