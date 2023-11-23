@@ -29,16 +29,15 @@ p{
 }
 
 .navbar{
+  font-size: 14px;
   display: flex; 
   justify-content: space-between; 
   background-color: none; 
-  padding-top: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px;
 } 
 
 h1 {
-  color:black;
+  /* color:black;
   text-align: left;
   padding-top: 150px;
   padding-bottom: 40px;
@@ -46,36 +45,67 @@ h1 {
   font-size: 3.2vmax;
   font-weight: lighter;
   color: black;
-  padding-bottom: 20px;
+  padding-bottom: 20px; */
+  
+
+  
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.8em;
+  font-size: 14px;
+  letter-spacing: .04em;
+  margin: 0 0 1em;
+  color: black;
+
 }
 
 ul {
   list-style-type: none;
+  margin: 1em 0 1em;
 }
 
 li{
-  font-size: 2.3vmax;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.2em;
+  font-size: 14px;
+  letter-spacing: .04em;
+  margin: 0 0 1em;
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 
 .h1_dates{
-  font-size: 3.2vmax;
+  /* font-size: 3.2vmax;
   padding-top: 25px;
   padding-bottom: 0px;
-  padding-left: 30px;
+  padding-left: 30px; */
+
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.2em;
+  font-size: 14px;
+  letter-spacing: .04em;
+  margin: 1em 0 1em;
+  color: black;
+
 }
 
 h2{
   color: black;
-  padding-top: 40px;
-  font-size: 3.2vmax;
+  padding-top: 20px;
+  font-size: 14px;
   font-weight: lighter;
   padding-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
   html {
-    font-size: 110%;
+    font-size: 14px;
   }
 }
 
@@ -93,9 +123,10 @@ h2{
 
 .dates {
   width: 100%; 
-  padding-left: 10%;
+  padding-left: 20%;
   padding-right: 5%;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 a:hover[href="about.html"] {
@@ -142,9 +173,10 @@ a:active {
 }
 
 .news{
-  padding-left: 30px;
-  padding-right: 15px;
+  /* margin-left: 150px;
+  text-align: center; */
   color: black;
+  
 }
 
   .flex-container {
@@ -228,7 +260,6 @@ a:active {
 
   .dates-img{
     height: 500px;
-    padding-top: 20px;
     max-width: 100%;
   }
 
